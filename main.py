@@ -6,3 +6,9 @@ import seaborn as sb
 
 from sklearn import datasets
 from sklearn.preprocessing import MinMaxScaler
+
+
+
+data = datasets.load_iris()
+
+print(data)
